@@ -3,7 +3,7 @@ const readline = require("readline").createInterface({
     output: process.stdout
 });
 
-readline.question("usuario: ", (u) => {
+readline.question("usuarios: ", (u) => {
     readline.question("senha: ", (s) => {
 
         console.log(
